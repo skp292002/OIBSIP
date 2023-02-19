@@ -1,0 +1,56 @@
+body{
+	background: url(https://cdn.pixabay.com/photo/2019/06/23/15/42/thermometer-4294021_960_720.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family:helvetica;
+	text-align:center;
+	font-size: 40px;
+	
+}
+
+.head{
+	padding: 10px;
+	background-color:#80ccff;
+}
+
+#userConverter{
+	padding: 15px;
+	background-color: bisque;
+}
+
+.temp{
+	font-size: medium;
+}
+
+.opt{
+	font-size: medium;
+}
+
+.convert{
+	font-size: medium;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color:yellow;
+}
+.convert:hover{
+	cursor: pointer;
+}
+
+td, th, #userConverter{
+	padding:8px;
+	border: 1px solid #ddd;
+	margin:auto;
+	width:50%;
+}
+
+th{
+	font-size:24px;
+	font-style:bold;
+	color:#ffffff;
+	background-color:#0099ff;
+}
+
+tr:nth-child(even) {background-color:#ccebff;}
+
+tr:hover {
+	background-color:#80ccff;
+}
